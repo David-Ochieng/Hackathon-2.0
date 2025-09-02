@@ -1,0 +1,23 @@
+/* Custom styles that can't be done with Tailwind */
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  
+  .journal-entry {
+    transition: all 0.3s ease;
+  }
+  
+  .journal-entry:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .mood-selector input[type="radio"]:checked + label {
+    transform: scale(1.1);
+    border: 2px solid white;
+  }
+  
+  .floating-btn {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  }
+  
